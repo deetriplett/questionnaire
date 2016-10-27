@@ -1,0 +1,305 @@
+/**Top Navigation**/
+*{
+  font-family: "Segoe UI","Helvetica Neue", Arial, sans-serif;
+}
+
+#nav-links {
+    border-top: solid #8bb522 5px;
+    background: #e6e6e6;
+    color: #000;
+}
+ul.nav.navbar-nav.navbar-right li a {
+    border-right: 2px solid gray;
+    color: #807980;
+    font-weight: bold;
+}
+li.active a {
+    border-left: 2px solid gray;
+    color: #000;
+    font-weight: bold;
+}
+
+/*****  Header   *****/
+.jumbotron {
+width:100%;
+margin-top: 2em;
+padding-top:2em;
+padding-bottom: 0;
+}
+
+.logo h1{
+  display: inline;
+  font-weight: lighter;
+}
+
+#powered-by {
+  display: inline;
+}
+.header-vendor {
+  text-align: right;
+  font-weight: bold;
+}
+
+.header-vendor span a {
+  color: #000;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+
+/**Bread Crumbs**/
+.breadcrumbs {
+  margin-top:-1em;
+  margin-bottom: 1em;
+  background-color: #fff;
+}
+.breadcrumbs span {
+  color: gray;
+}
+.breadcrumbs a {
+  color: #000;
+  font-size: 1.3em;
+}
+.breadcrumbs h4 {
+  color: #8bb522;
+  display:inline;
+  background-color: #fff;
+}
+
+/**Banner**/
+#banner {
+  background: #FF9900;
+}
+
+div.row div {
+  display:inline-block;
+  float: left;
+  margin-left: 2em;
+}
+
+
+#envelope {
+    display: inline-block;
+    border-radius: 50%;
+    height: 8.5em;
+    width: 8.5em;
+    margin-left: 2em;
+    background-color: #fff;
+    text-align: center;
+
+}
+.banner-head h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.descript h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: gray;
+}
+
+.descript p {
+    color: #fff;
+}
+/******Tabs*******/
+#section-tabs {
+  text-align: center;
+  background: #e6e6e6;
+  border-radius: 2em;
+  height: 4em;
+  width: 100%;
+  margin-top: 4em;
+}
+.recip-tab,
+.temp-tab,
+.mess-tab,
+.view-tab {
+  margin-right: 4em;
+  margin-top: -1em;
+  color: #a9a9a9;
+  font-weight: bold;
+  /*background-color:#8bb522;*/
+  padding: 1.2em;
+  padding-top: -40px;
+  border-radius:2em;
+  width:15%;
+}
+
+ul.nav.nav-pills{
+  padding-top: 1em;
+  }
+  div.col-md-3.temp-tab {
+      margin-left: 6em;
+  }
+
+  div.col-md-3.mess-tab {
+      margin-left: 6em;
+  }
+
+  div.col-md-3.view-tab {
+      margin-left: 7.3em;
+      margin-right: 0;
+  }
+
+  li.recip a span,
+  li.templates a span,
+  li.message a span,
+  li.view a span
+   {
+      text-decoration: none;
+      color: #a9a9a9;
+  }
+
+.section-page{
+  margin: 2em;
+  padding-top: 2em;
+  padding-left: 6em;
+}
+/***************************     Questionnaire     *****************************/
+
+.add {
+  color: #fff;
+  background-color: #8bb522;
+  border-radius: 50%;
+}
+.form-group p {
+  display:inline;
+  margin-left: 1em;
+}
+
+div.form-group.col-md-4 select{
+background-color: #e7e7e7;
+border-style: none;
+width: 60%;
+height: 3em;
+}
+
+input.hasDatepicker{
+width: 60%;
+height: 3em;
+background-color: #e7e7e7;
+border:none;
+background-image: url('img/cal.png') no-repeat;
+}
+/** Form Buttons **/
+.form-button1 {
+  height: 3em;
+  width: 10em;
+  margin-left: -10em;
+  margin-top: 4em;
+  border-radius: 2em;
+  background-color: #a9a9a9;
+  color: #fff;
+}
+
+.form-button2 {
+  height: 3em;
+  width: 10em;
+  margin-left: 3em;
+  margin-top: 4em;
+  border-radius: 2em;
+  background-color: #8bb522;
+  color: #fff;
+}
+
+/*************************** TEMPLATES PAGE *********************************/
+.table-responsive {
+    background-color: #e6e6e6;
+    padding: auto;
+    margin: auto 0;
+    margin-top: 3em;
+    font-size: 1em;
+    font-weight: normal;
+    padding-left: 1em;
+}
+
+.t-head {
+  background-color: #e6e6e6;
+  font-size: 2em;
+  font-weight: normal;
+  padding-left: 25px;
+}
+input[type=radio] {
+  margin-top: 3em;
+  text-align: center;
+  height:2em;
+  width:2em;
+}
+#sample {
+    display: none;
+    font-size: 100px;
+}
+/*************************** MESSAGE PAGE *******************************/
+.h-mess {
+  font-size: 2em;
+  color: gray;
+  margin: auto 0;
+}
+#widgEditor{
+  width:100%;
+  height: 20em;
+  background-color: #e7e7e7;
+}
+#message {
+width: 100%;
+height: 10em;
+background-color: #e7e7e7;
+border-style: none;
+}
+h2.h-mess {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+textarea.customText {
+    margin-bottom: 2em;
+    border-style: none;
+}
+
+
+/*************************** PREVIEW PAGE *********************************/
+.preview-page {
+  padding-top: 3em;
+}
+
+.row-recipient,
+.row-questionnaire,
+.row-intro{
+  border-bottom: solid 2px gray;
+  margin-top: 1em;
+  padding-bottom:3em;
+  color: #000;
+}
+
+.row-recipient h2,
+.row-questionnaire h2,
+.row-intro h2,
+.row-message h2{
+  color: gray;
+  font-weight: normal;
+}
+
+.temp-view {
+  background-color: #8bb522;
+  color: #fff;
+}
+
+.email-message {
+  margin-top: 3em;
+  border: solid 1px gray;
+  height: 40em;
+  width: 50em;
+}
+
+
+/*************************** SENT PAGE *********************************/
+.thanks {
+  font-size: 2em;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+
+}
